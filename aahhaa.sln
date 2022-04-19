@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aahhaa.Api", "aahhaa.Api\aahhaa.Api.csproj", "{98BA75D6-AE9C-494B-859A-D65B750A7D2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aahhaa.Api", "src\aahhaa.Api\aahhaa.Api.csproj", "{98BA75D6-AE9C-494B-859A-D65B750A7D2B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aahhaa.Core", "aahhaa.Core\aahhaa.Core.csproj", "{3367FA32-45F3-4F3D-8F1D-3D11407F72CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aahhaa.Core", "src\aahhaa.Core\aahhaa.Core.csproj", "{3367FA32-45F3-4F3D-8F1D-3D11407F72CF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aahhaa.Infrastructure", "aahhaa.Infrastructure\aahhaa.Infrastructure.csproj", "{F0CFE2B4-BF81-47F7-9EE6-BE8958C2EBFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aahhaa.Infrastructure", "src\aahhaa.Infrastructure\aahhaa.Infrastructure.csproj", "{F0CFE2B4-BF81-47F7-9EE6-BE8958C2EBFF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aahhaa.Api.Tests", "aahhaa.Api.Tests\aahhaa.Api.Tests.csproj", "{61DA76F3-F1E3-4DE9-A1AB-E27774C91E96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aahhaa.Api.Tests", "tests\aahhaa.Api.Tests\aahhaa.Api.Tests.csproj", "{61DA76F3-F1E3-4DE9-A1AB-E27774C91E96}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E857DCEE-CDA1-4A6C-828A-9B153659E82F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aahhaa.Shared", "aahhaa.Shared\aahhaa.Shared.csproj", "{B1C6062D-3ED8-406E-946A-37079AA55B1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aahhaa.Shared", "src\aahhaa.Shared\aahhaa.Shared.csproj", "{B1C6062D-3ED8-406E-946A-37079AA55B1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
