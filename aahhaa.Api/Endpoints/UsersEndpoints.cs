@@ -10,7 +10,7 @@ public class UsersEndpoints : IEndpoints
 {
     public void Register(IEndpointRouteBuilder routeBuilder)
     {
-        routeBuilder.MapGet("v1/user/{id}", GetByIdAsync);
+        routeBuilder.MapGet("v1/users/{id}", GetByIdAsync);
         routeBuilder.MapPost("v1/users", CreateUserAsync);
     }
 
