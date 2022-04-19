@@ -1,0 +1,1 @@
+﻿This is a placeholder for where domain interfaces would go. Interfaces abstract away the concrete implementation details of a service or repository.

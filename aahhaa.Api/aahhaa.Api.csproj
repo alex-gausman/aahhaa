@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.4.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.4.0" />
+    <PackageReference Include="Flurl" Version="3.0.4" />
+    <PackageReference Include="LiteDB" Version="5.0.11" />
+    <PackageReference Include="LiteDB.Async" Version="0.1.0" />
+    <PackageReference Include="MinimalApis.Extensions" Version="0.5.2-pre.20220322.22" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\aahhaa.Infrastructure\aahhaa.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

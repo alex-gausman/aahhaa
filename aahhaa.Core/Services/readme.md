@@ -1,0 +1,1 @@
+﻿This is a placeholder for where domain services would go. Services are a great way to coordinate operations across other services, models, and repositories.
