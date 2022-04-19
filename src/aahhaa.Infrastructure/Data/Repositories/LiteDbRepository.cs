@@ -5,12 +5,12 @@ using System.Linq.Expressions;
 
 namespace aahhaa.Infrastructure.Data.Repositories;
 
-public class Repository<T> : IRepository<T> where T : class
+public class LiteDbRepository<T> : IRepository<T> where T : class
 {
     private readonly ILiteDatabaseAsync _database;
     private readonly ILiteCollectionAsync<T> _collection;
 
-    public Repository(ILiteDatabaseAsync database)
+    public LiteDbRepository(ILiteDatabaseAsync database)
     {
         _database = database;
         _collection = _database.GetCollection<T>();

@@ -7,6 +7,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddAahhaaServices(builder.Configuration);
 var app = builder.Build();
 
+// Enable CORS for any domain
+app.UseCors(policy => {
+    policy.AllowAnyOrigin();
+    policy.AllowAnyMethod();
+    policy.AllowAnyHeader();
+});
+
 // Register the routes and handlers
 app.Services.GetServices<IEndpoints>()
     .ToList()

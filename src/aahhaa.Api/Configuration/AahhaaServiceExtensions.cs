@@ -24,8 +24,8 @@ namespace aahhaa.Api.Configuration
                 return new LiteDatabaseAsync(options.DatabasePath);
             });
             
-            services.AddTransient<IRepository<User>, Repository<User>>();
-            services.AddTransient<IRepository<Note>, Repository<Note>>();
+            services.AddTransient<IRepository<User>, LiteDbRepository<User>>();
+            services.AddTransient<IRepository<Note>, LiteDbRepository<Note>>();
 
             services.AddTransient<IEndpoints, UsersEndpoints>();
             services.AddTransient<IEndpoints, NotesEndpoints>();
